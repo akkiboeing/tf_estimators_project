@@ -54,4 +54,4 @@ print(con_mat)
 print(classification_report(y_test, f_pred))
 
 if((con_mat[0][1] == 0) & (con_mat[1][0] == 0)):
-   print('Prefect Accuracy! Overfitting? Maybe.\n')
+   print('Perfect Accuracy! Overfitting? Maybe.\n')
